@@ -1,7 +1,8 @@
 import React,{useEffect} from "react";
 import { useState } from "react";
 function Demo(){
-const[hovered,setHovered]=useState(0);\
+const[hovered,setHovered]=useState(0);
+
 useEffect(()=>{
     console.log("use effect renders");
 })
